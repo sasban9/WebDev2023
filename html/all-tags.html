@@ -18,7 +18,8 @@
         tbody tr:nth-child(5n+4):not(.th1) {background: rgb(251, 222, 55);}
         tbody tr:nth-child(5n):not(.th1) {background: gold;}
         a{font-weight: bold;color: crimson;}
-        h2{margin-top: 10rem;}
+        tr.th1 h2{margin-top: 10rem;}
+        input{margin-bottom: 8px;}
     </style>
 </head>
 <body>
@@ -245,6 +246,18 @@
         <tr class="th1">
             <th colspan="4"><h2>HTML Structure</h2></th>
         </tr>
+
+
+        <tr>
+            <td><a href="https://www.geeksforgeeks.org/html-doctypes/">!DOCTYPE html</a></td>
+            <td>According to the HTML specification or standards, every HTML document requires a document type declaration.</td>
+            <td>&lt; !DOCTYPE html &gt;</td>
+            <td>
+            <div class="practiceLinkDiv-banner">
+            <div class="redirect"><a href="https://ide.geeksforgeeks.org/tryit.php/8c359013-f2b2-41e7-ba95-931e36070300">Try</a></div>
+            </div>
+            </td>
+            </tr>
         <tr>
         <td><a href="https://www.geeksforgeeks.org/html-html-tag/">html</a></td>
         <td>The html tag in HTML is used to define the root of HTML and XHTML documents.</td>
@@ -284,6 +297,12 @@
         <div class="redirect"><a href="https://ide.geeksforgeeks.org/tryit.php/0d4d528e-2aca-40aa-b6b8-ddb84f504c2a">Try</a></div>
         </div>
         </td>
+        </tr>
+        <tr>
+            <td>link</td>
+            <td>The link tag is included in the head tag and defines the relationship between the current document and an external resource. Most often it is used to link to external style sheets or to add a favicon to html.                The &lt;link> element is an empty element as it contains attributes only.</td>
+            <td> &lt;link rel="stylesheet" href="styles.css"></td>
+            <td></td>
         </tr>
         <tr>
         <td><a href="https://www.geeksforgeeks.org/html-body-tag/">body</a></td>
@@ -457,7 +476,13 @@
         <tr>
         <td><a href="https://www.geeksforgeeks.org/html-input-tag/">input</a></td>
         <td>The input tag is used within &lt; form&gt; element to declare input controls that allow users to input data.</td>
-        <td>&lt;input type = “value" …. /&gt;</td>
+        <td>
+            <input type="text"> <br> 
+            <input type="number"> <br> 
+            <input type="password" placeholder="password"> <br> 
+            <input type="date"> <br> 
+            <input type="color"> <br> 
+            &lt;input type = “value" …. /&gt;</td>
         <td>
         <div class="practiceLinkDiv-banner">
         <div class="redirect"><a href="https://ide.geeksforgeeks.org/tryit.php/6884f9fa-b64c-4c8a-9cef-490adf449728">Try</a></div>
@@ -467,7 +492,7 @@
         <tr>
             <td>select</td>
             <td>The select tag is used inside form element to create dropdown</td>
-            <td><select name="" id=""><option value="1">Option 1</option><option value="2">Option 2</option></select></td>
+            <td><select name="" id=""><option value="1">Option 1</option><option value="2">Option 2</option></select><br>&lt;select name="" id="">&lt;/select></td>
             <td></td>
         </tr>
         <tr>
@@ -493,7 +518,7 @@
         <tr>
             <td>textarea</td>
             <td>The textarea tag is used inside form element to create dropdown</td>
-            <td><textarea name="" id="" cols="30" rows="4" placeholder="Enter long paragraphs here"></textarea></td>
+            <td><textarea name="" id="" cols="30" rows="4" placeholder="Enter long paragraphs here"></textarea><br>&lt;textarea name="" id="" >&lt;/textarea></td>
             <td></td>
         </tr>
         <tr>
@@ -509,7 +534,7 @@
         <tr>
         <td><a href="https://www.geeksforgeeks.org/html-5-progress-tag/">progress</a></td>
         <td>It is used to represent the progress of a task. It is also defined how much work is done and how much is left to download a thing.</td>
-        <td><progress attributes…></progress><progress value="75" max="100"></progress> </td>
+        <td><progress attributes…></progress> Loading...<br><progress value="75" max="100"></progress>  75/100</td>
         <td>
         <div class="practiceLinkDiv-banner">
         <div class="redirect"><a href="https://ide.geeksforgeeks.org/tryit.php/0e3a00dd-58fd-4824-80da-d99e4e07d051">Try</a></div>
@@ -661,18 +686,6 @@
 
 
 
-
-
-        <tr>
-            <td><a href="https://www.geeksforgeeks.org/html-doctypes/">!DOCTYPE html</a></td>
-            <td>According to the HTML specification or standards, every HTML document requires a document type declaration.</td>
-            <td>&lt; !DOCTYPE html &gt;</td>
-            <td>
-            <div class="practiceLinkDiv-banner">
-            <div class="redirect"><a href="https://ide.geeksforgeeks.org/tryit.php/8c359013-f2b2-41e7-ba95-931e36070300">Try</a></div>
-            </div>
-            </td>
-            </tr>
             <tr>
             <td><a href="https://www.geeksforgeeks.org/html-comments/">comment</a></td>
             <td>The comment tag is used to insert comments in the HTML code.</td>
@@ -697,7 +710,7 @@
         </thead>
         <tbody>
         <tr class="th1">
-            <th colspan="4"><h3>Lesser used tags are listed below (A - Z)</h3></td>
+            <th colspan="4"><h3>Lesser used tags (A - Z)</h3></td>
         </tr>
 
 
