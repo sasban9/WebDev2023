@@ -1,0 +1,67 @@
+<style>
+  *{margin: 0;}
+  table{border-collapse: collapse;}
+  body{font-family: sans-serif;}
+  h1,h2,h3,th{font-family: serif;}
+  #form-table tr td:nth-of-type(1){background: darkslategray;color: white;}
+  td{padding: 4px 10px;}
+</style>
+<table width="100%" style="background-color: salmon1;height: 100%;">
+  <tr>
+    <td></td>
+    <td id="form-table" width="800" style="background: gold1;">
+      <table width="100%" style="background: #eee;">
+        <tr>
+          <td colspan="2"><h2>Update Profile</h2></td>
+        </tr>
+        <!-- <tr>
+          <td colspan="2" width="50%"></td>
+          <td colspan="2" width="50%"></td>
+        </tr> -->
+        <tr>
+          <td width="160"><b>First Name</b></td><td><input type="text" placeholder="Jane"></td>
+        </tr>
+        <tr>
+          <td><b>Last Name</b></td><td><input type="text" placeholder="Doe"></td>
+        </tr>
+        <tr>
+          <td>Email</td><td><input type="email" placeholder="username@domain.com"></td>
+        </tr>
+        <tr>        
+          <td>Mobile</td><td><input type="text" placeholder="+91-9988776655"></td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td><td><input type="date"></td>
+        </tr>
+        <tr>
+          <td>Star Color</td><td><input type="color" value="#84f4cc"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td>Gender</td><td colspan="3"><input type="radio" name="gender"> No mention <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Other </td>
+        </tr>
+        <tr>
+          <td>Education</td><td><select name="gender" id=""><option value="high-school">High School or lower</option><option value="grad">Graduate</option><option value="post-grad">Post Graduate</option><option value="phd">PhD</option><option value="postdoc">Post Doc</option></select></td>
+        </tr>
+        <tr>
+          <td>About me</td><td colspan="3"><textarea rows="6" cols="50" placeholder="Tell us more about yourself"></textarea></td>
+        </tr>
+        <tr>
+          <td>Captcha</td><td>5 + 8 = <input type="number"></td>
+        </tr>
+        <tr>
+          <td>Image Captcha</td><td><img src="https://www.tsohost.com/assets/uploads/blog/capcha.jpeg" height="80" alt=""><br><input type="text"></td>
+        </tr>
+        <tr>
+          <td></td><td colspan="3"><input type="checkbox"> I agree to the terms and conditions of this website. <br><input type="checkbox"> I agree to receive updates on my email</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button>Save</button></td>
+        </tr>
+      </table>
+    </td>
+    <td></td>
+  </tr>
+</table>
