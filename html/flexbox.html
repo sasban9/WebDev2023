@@ -17,6 +17,7 @@
 
         hr {
             border: solid 1px black;
+            margin: 0.8rem 0;
         }
 
         h1,
@@ -30,16 +31,13 @@
             margin: 0;
         }
 
-        td {
-            vertical-align: top;
-            padding: 1rem;
-        }
-
-        .d-flex{display: flex;flex-grow: 1;}
+        div>img{max-width: 100%;}
+        .d-flex{display: flex;flex-grow: 3;}
+        .d-menu{min-width: 200px;}
         .d-flex>div{padding: 1rem}
         ul{margin-left: 1rem;}
 
-        @media (max-width:768px){
+        @media (max-width:800px){
             .d-flex{flex-direction: column;}
         }
     </style>
@@ -48,11 +46,14 @@
 <body>
 
     <div class="container">
-        <div class="d-flex" style="background:pink">
+        <div class="d-flex" style="background:pink;align-items: center;">
             <div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/1200px-ZDF_logo%21_Logo_2021.svg.png" height="60"> 
             </div>
             <div><h3>Menu 1 | Menu 2 | Menu 3 | Menu 4 | Menu 5</h3></div>
+            <div><img src="https://www.everwallpaper.co.uk/cdn/shop/collections/3D_Wallpaper.jpg?v=1660209305" alt="" height="100"></div>
+            <div><img src="https://images6.alphacoders.com/133/1330235.png" alt="" height="100"></div>
+            <div><img src="https://indiecdn.files.wordpress.com/2023/03/d74006161609489.63c807d728300.jpg" alt="" height="100"></div>
         </div>
         <div class="d-flex">
             <div style="background:wheat;min-width: 200px;">
@@ -63,6 +64,7 @@
                     <li>Menu1</li>
                     <li>Menu1</li>
                 </ul>
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" alt="">
             </div>
             <div width="70%">
                 <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
@@ -95,12 +97,13 @@
                 who avoids a pain that produces no resultant pleasure?"
                 <h5>1914 translation by H. Rackham</h5>
             </div>
-            <div style="background:khaki">
+            <div style="background:khaki;">
                 "I am not a designer, but creating my brand identity through LOGO.com was delightfully easy and
                 cost-effective. I am very pleased with the outcome, and I couldn't have achieved the same standard on my
                 own. I highly recommend this to any start-up business looking to set up its brand identity or any
                 established business looking to get its brand an upgrade!"
                 <hr>
+                <img src="https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg" alt="" width="300">
             </div>
         </div>
       
@@ -110,7 +113,14 @@
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum."</h2>
+                <div class="d-flex" style="justify-content: center;align-items: center;">
+                    <div><img src="https://www.everwallpaper.co.uk/cdn/shop/collections/3D_Wallpaper.jpg?v=1660209305" alt=""
+                            height="100"></div>
+                    <div><img src="https://images6.alphacoders.com/133/1330235.png" alt="" height="100"></div>
+                    <div><img src="https://indiecdn.files.wordpress.com/2023/03/d74006161609489.63c807d728300.jpg" alt="" height="100">
+                    </div>
                 </div>
+            </div>
 
 
                     <div class="d-flex">
@@ -121,6 +131,7 @@
                             content-security-policy Allows page authors to define a content policy for the current page.
                             Content policies mostly specify allowed server origins and script endpoints which help guard
                             against cross-site scripting attacks.
+                            <img src="https://images3.alphacoders.com/133/1332803.png" alt="">
                         </div>
                         <div style="background:lavender">
                             <h1>2.</h1> Defines a pragma directive. The attribute is named http-equiv(alent) because all
@@ -136,6 +147,7 @@
                             placement within the document. Note: Can only be used in documents served with a text/html —
                             not in documents served with an XML MIME type.
                             default-style Sets the name of the default CSS style sheet set.
+                            <img src="https://images3.alphacoders.com/133/1332803.png" alt="">
                         </div>
                         <div>
                             <h1>3.</h1> Defines a pragma directive. The attribute is named http-equiv(alent) because all
@@ -155,11 +167,28 @@
                             placement within the document. Note: Can only be used in documents served with a text/html —
                             not in documents served with an XML MIME type.
                             default-style Sets the name of the default CSS style sheet set.
+
+                            content-security-policy Allows page authors to define a content policy for the current page.
+                            Content policies mostly specify allowed server origins and script endpoints which help guard
+                            against cross-site scripting attacks.
+                            content-type Declares the MIME type and the document's character encoding. The content
+                            attribute must have the value "text/html; charset=utf-8" if specified. This is equivalent to
+                            a
+                            <meta> element with the charset attribute specified and carries the same restriction on
+                            placement within the document. Note: Can only be used in documents served with a text/html —
+                            not in documents served with an XML MIME type.
+                            default-style Sets the name of the default CSS style sheet set.This is equivalent to a
+                            <meta> element with the charset attribute specified and carries the same restriction on
+                            placement within the document. Note: Can only be used in documents served with a text/html —
+                            not in documents served with an XML MIME type.
+                            default-style Sets the name of the default CSS style sheet set.
+                            <img src="https://images3.alphacoders.com/133/1332803.png" alt="">
                         </div>
                     </div>
 
-                    <div class="d-flex">
-                        <div style="max-width: 600px"><img
+                    <div class="d-flex" style="background: gold;">
+                        <div style="max-width: 500px;">
+                            <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/1200px-ZDF_logo%21_Logo_2021.svg.png"
                                 height="30"><br>This is a description of this class Purchase through our Secure
                             checkout.
@@ -167,7 +196,7 @@
                             Our Award-Winning Antivirus will update automatically.
 
                             Sit back and relax! We’ve got all of your devices covered safe and sound.</div>
-                        <div style="background-color: lightgrey;">
+                        <div class="d-menu" style="background-color: #0002;">
                             <b>First Menu</b>
                             <ul>
                                 <li>Menu Item</li>
@@ -176,7 +205,7 @@
                                 <li>Menu 1</li>
                             </ul>
                         </div>
-                        <div><b>Second Menu</b>
+                        <div class="d-menu"><b>Second Menu</b>
                             <ul>
                                 <li>Menu Item</li>
                                 <li>Menu 1</li>
@@ -184,10 +213,10 @@
                                 <li>Menu 1</li>
                             </ul>
                         </div>
-                        <div style="background-color: lightgrey;">
+                        <div class="d-menu" style="background-color: #0002;">
                             <b>3rd Menu</b>
                             <ul>
-                                <li>Menu Item</li>
+                                <li>Menu Item pretty long name to check wrapping</li>
                                 <li>Menu 1</li>
                                 <li>Menu 1</li>
                                 <li>Menu 1</li>
