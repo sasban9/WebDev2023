@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Table Layout</title>
+    <title>div Layout</title>
     <style>
         * {
             border: solid 0 darkred;
@@ -34,19 +34,21 @@
             vertical-align: top;
             padding: 1rem;
         }
+
+        .d-flex{display: flex;}
     </style>
 </head>
 
 <body>
 
-    <table width="100%">
-        <tr>
+    <div class="container">
+        <div class="d-flex">
             <td colspan="3" style="background:pink">
                 <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/1200px-ZDF_logo%21_Logo_2021.svg.png"
                         height="60"> Menu 1 | Menu 2 | Menu 3 | Menu 4 | Menu 5</h3>
             </td>
-        </tr>
-        <tr>
+        </div>
+        <div class="d-flex">
             <td style="background:wheat">
                 <ul>
                     <li>MenuItem</li>
@@ -94,8 +96,8 @@
                 established business looking to get its brand an upgrade!"
                 <hr>
             </td>
-        </tr>
-        <tr>
+        </div>
+        <div class="d-flex">
             <td colspan="3" style="background: darkslategray;color: white;">
                 <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -103,12 +105,12 @@
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum."</h2>
             </td>
-        </tr>
-        <tr>
+        </div>
+        <div class="d-flex">
             <td colspan="3">
-                <table>
+                <div>
 
-                    <tr>
+                    <div class="d-flex">
                         <td>
                             <h1>1.</h1> Defines a pragma directive. The attribute is named http-equiv(alent) because all
                             the allowed values are names of particular HTTP headers:
@@ -151,14 +153,14 @@
                             not in documents served with an XML MIME type.
                             default-style Sets the name of the default CSS style sheet set.
                         </td>
-                    </tr>
-                </table>
+                    </div>
+                </div>
             </td>
-        </tr>
-        <tr>
+        </div>
+        <div class="d-flex">
             <td colspan="3" style="background:gold">
-                <table width="100%">
-                    <tr>
+                <div class="d-flex">
+                    <div class="d-flex">
                         <td width="40%"><img
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/1200px-ZDF_logo%21_Logo_2021.svg.png"
                                 height="30"><br>This is a description of this class Purchase through our Secure
@@ -191,11 +193,11 @@
                                 <li>Menu 1</li>
                             </ul>
                         </td>
-                    </tr>
-                </table>
+                    </div>
+                </div>
             </td>
-        </tr>
-    </table>
+        </div>
+    </div>
 
 </body>
 
